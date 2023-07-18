@@ -133,3 +133,44 @@ margin-top: 25px;
 .btn-2{
     background-color: #4EC5F7;;
 }
+/* section 1 style start  */
+
+.sec-1{
+    max-width: 80%;
+    margin: 200px auto 0;
+}
+.sec-1 h3{
+ color: #0B0223;
+text-align: center;
+font-size: 2.7rem;
+font-weight: 700;
+}
+.sec-1 p{
+color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin: 20px 0 35px 0;
+}
+.sec-1-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.card-1 img{
+    width: 100%;
+    
+}
+.card-1{
+    width:23%;
+}
+.card-1 p{
+color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
+.funny{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}

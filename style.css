@@ -263,6 +263,8 @@ line-height: 25px;
     gap: 10px;
     padding: 5px 10px;
     cursor: pointer;
+    border: 2px solid #f5f5f500  ;
+    border-radius: 50px;
 }
 .button:hover{
     border: 2px solid #ff42a5  ;

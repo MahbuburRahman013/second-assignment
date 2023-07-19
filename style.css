@@ -258,7 +258,6 @@ line-height: 25px;
 .button{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
     padding: 5px 10px;
     
@@ -329,12 +328,12 @@ font-weight: 600;
     font-size: 2.5rem;
     align-items: center;
     justify-content: center;
-    gap: 33px;
+    gap: 35px;
     margin: 30px 0;
     color: #fff;
     cursor: pointer;
     flex-wrap: wrap;
-    gap: 18px;
+    
 }
 .foot-4{
     display: flex;
@@ -362,4 +361,84 @@ footer{
     font-size: 1rem;
     font-weight: 500;
     text-align: center;
+}
+
+/* start media query for mobile and small device  */
+
+@media screen and (max-width:576px) {
+    .logo{
+        justify-content: center;
+    }
+    .logo img{
+        width: 100%;
+    }
+    nav, .sec-1-card-container
+    , .sec-2{
+        flex-direction: column;
+    }
+    ul{
+        margin-top: 30px;
+        gap: 40px;
+        flex-direction: column;
+    }
+    .nav-btn{
+        width: 230px;
+    }
+    .header{
+        box-shadow: none;
+    }
+    .banner-sec{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin-top: 50px;
+    }
+    .banner-right,
+    .sec-2-left
+    {
+        width: 100%;
+    }
+    .banner-right img{
+        height: auto;
+    }
+    .banner-left{
+        width: 100%;
+    }
+    .banner-contant{
+        margin-right: 0;
+    }
+    .banner-contant p, .sec-1 p{
+          font-size: 1rem;
+    }
+    .banner-contant h1{
+        font-size: 4.5rem;
+    }
+    .banner-contant h3, .sec-1 h3{
+        font-size: 2rem;
+    }
+    .card-1{
+        width: auto;
+    }
+    .sec-2-left p, .sec-2-left h1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .sec-2-right{
+        width: 90%;
+    }
+    .sm-img{
+        width: 45%;
+        left: -50px;
+        bottom: -45px;
+    }
+    .sec-3-container{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+    .button img{
+        width: 30%;
+    }
+    .button p{
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
 }

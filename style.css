@@ -389,7 +389,7 @@ footer{
     }
     .banner-sec{
         flex-direction: column-reverse;
-        width: 90%;
+        max-width: 90%;
         margin-top: 50px;
     }
     .banner-right,
@@ -402,6 +402,7 @@ footer{
     }
     .banner-left{
         width: 100%;
+        height: 60vh;
     }
     .banner-contant{
         margin-right: 0;
@@ -446,5 +447,9 @@ footer{
     }
     .main-footer{
         width: 70%;
+    }
+    .btn-1,
+    .btn-2{
+        padding: 10px 20px;
     }
 }

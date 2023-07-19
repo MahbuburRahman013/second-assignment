@@ -452,4 +452,60 @@ footer{
     .btn-2{
         padding: 10px 20px;
     }
+    .button{
+        padding: 5px 15px;
+    }
+}
+/* start media query for medium and tablet device  */
+
+@media screen and (min-width:577px) and (max-width:990px) {
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        width: auto;
+    }
+    .logo img{
+        width: 45%;
+    }
+    .navbar{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .header{
+        box-shadow: none;
+    }
+    .banner-left,
+    .banner-right{
+        width: 100%;
+        
+    }
+    .banner-sec{
+        flex-direction: column-reverse;
+    }
+    .card-1{
+        width: 47%;
+    }
+    .sec-1-card-container{
+        flex-wrap: wrap;
+    }
+    .sec-2-right,
+    .sec-2-left {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .sec-2{
+        flex-direction: column;
+    }
+    .sm-img {
+        bottom: -103px;
+        left: -72px;
+        width: 50%;
+    }
+    .foot-1 img{
+        width: 18%;
+    }
+    .sec-2-left h1, .sec-2-left p{
+        text-align: center;
+    }
 }

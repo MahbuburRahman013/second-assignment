@@ -437,6 +437,7 @@ footer{
     }
     .sec-3-container{
         display: grid;
+        gap: 0;
         grid-template-columns:1fr 1fr 1fr ;
     }
     .button img{
@@ -457,7 +458,9 @@ footer{
         padding: 10px 20px;
     }
     .button{
+        justify-content: inherit;
         padding: 5px 15px;
+        gap: 5px;
     }
 }
 /* start media query for medium and tablet device  */

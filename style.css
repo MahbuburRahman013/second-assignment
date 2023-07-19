@@ -129,6 +129,7 @@ border-radius: 25px;
 padding: 13px 35px;
 background-color:#ff42a5 ;
 margin-top: 25px;
+cursor: pointer;
 }
 .btn-2{
     background-color: #4EC5F7;;
@@ -203,6 +204,7 @@ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
 }
 .overly div{
     font-size: 3rem;
+    cursor: pointer;
 }
 .card-1 p{
     text-align: left;
@@ -260,7 +262,7 @@ line-height: 25px;
     align-items: center;
     gap: 10px;
     padding: 5px 10px;
-    
+    cursor: pointer;
 }
 .button:hover{
     border: 2px solid #ff42a5  ;

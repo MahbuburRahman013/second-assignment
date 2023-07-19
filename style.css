@@ -255,3 +255,35 @@ font-size: 1rem;
 font-weight: 400;
 line-height: 25px;
 }
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 10px;
+    
+}
+.button:hover{
+    border: 2px solid #ff42a5  ;
+    border-radius: 50px;
+}
+.button:hover p{
+    color: #F948B2;
+}
+.sec-3-container{
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+}
+.sec-3{
+    max-width: 85%;
+    margin: 250px auto 50px;
+    
+}
+.button p{
+    color: #0B0223;
+font-size: 1rem;
+font-weight: 600;
+}
